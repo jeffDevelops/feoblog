@@ -140,7 +140,7 @@ Log In
 
 Return to the "Log In" page in the browser.
 
-Paste your userID (not password!) into the "Log In As:" field, and click the "Log In" button. You'll get a warning that your profile doesn't exist. (We'll write one next!) Click the "Confirm" button.
+Paste your userID (not password!) into the "Add User Id:" field. You'll get a warning that your profile doesn't exist. (We'll write one next!) Click the "Confirm" button.
 
 Now you're "logged in". You may be surprised that no password was required. "Logging in" to the client just tells it to present data to you as if you are that user. Don't worry, a password will be required to write any data.
 
