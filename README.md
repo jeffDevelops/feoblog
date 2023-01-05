@@ -84,8 +84,12 @@ Otherwise, you can download a prebuilt release from the [GitHub Releases] page.
 
 Run the server
 --------------
+Create a database called feoblog.sqlite3 in the current directory.
+```
+feoblog db init
+```
 
-Once you've built or downloaded feoblog, you can run it locally by just running:
+Once you've built or downloaded feoblog and initialized the db, you can run it locally by just running:
 
 ```
 feoblog serve --open
@@ -93,7 +97,6 @@ feoblog serve --open
 
 This will:
  * Start a server on localhost:8080. (You can override w/ the `--bind` option)
- * Create a database called feoblog.sqlite3 in the current directory.
  * Open a web browser window pointing to your new empty database.
 
 Create a User ID
